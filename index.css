@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  /* background-image:radial-gradient( red ,green,black); */
+  background-image: radial-gradient(circle,red 20% ,green 40%,blue 50%);
+  
+}
+::selection{
+  color: red;
+  background: yellow;
+}
+/* radial ki jagah linear bhi use kar sakte hai */
+/* ek resize property hoti hai jo textarea ki tarah div ko resize karne me help karti hai */
+/* ek object fit property hota hai jo image ko resize karne ke lie kaam aata hai */
+/* pseudo elements hote hai jo ki first para ke word ya line ko resize ke kaam aate hai or pseudo classe bhi hoti hai 
+syntax: p::first-letter{
+                         }
+    h1::after{content:url()} */
+    /* ek property hota hai visibility:hidden */
+    /* relative position me object apni jagah se hi calculation start karta hai or kisi ko apni jagah pe nhi aane deta hai magar absolute me vo jagah chode deta hai or parent ke hisab se calculation karta hai  or agar parent me koi position na given ho to vo body pe chala jata hai or position matlab static ko chod ke koi bhi */
+/* navigation bar float left se bhi ban jaega magar jo content hai vo ul ke bahar aa jaega to iske lie hume ul me overflow auto karna hoga */
+/* float ki tarah clear hota hai  */
+/* transfomr me translate,scale,rotate,skew,rotate3d  or ye sab agar unme na lage jo inline hai use inline-block kardo */
+/* ek saath transform me jyada property lagane ke lie transform matrix kardo */
+/* transform me hi hota hai perpective() */
